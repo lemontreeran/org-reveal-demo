@@ -1,0 +1,61 @@
+#+TITLE: ox-reveal
+#+AUTHOR: Andrew Kirkpatrick <ubermonk@gmail.com>
+
+* Org Export to Reveal.js
+ :PROPERTIES:
+ :reveal_background: ./img/auckland-skyline-footer.png
+ :reveal_background_trans: slide
+ :END:
+Its not impress.js, but it does the job and its less distracting.
+
+* Fun times
+ :PROPERTIES:
+ :reveal_background: ./img/paper-bg.png
+ :reveal_background_trans: slide
+ :END:
+ - First item
+ - Second item
+ - Its not numbered
+
+* And stuff
+ :PROPERTIES:
+ :reveal_background: ./img/auckland-skyline-footer.png
+ :reveal_background_trans: slide
+ :END:
+Following tis line is a numbered list:
+1. Nice keynote
+2. Must... focus...
+3. Yesss
+Another line after the list
+
+** Funner times
+ :PROPERTIES:
+ :reveal_background: ./img/paper-bg.png
+ :reveal_background_trans: slide
+ :END:
+   Um yes
+
+* Colophon :ARCHIVE:noexport:
+#+OPTIONS: toc:nil
+#+OPTIONS: reveal_center:t reveal_control:t reveal_height:-1
+#+OPTIONS: reveal_history:nil reveal_keyboard:t reveal_mathjax:nil
+#+OPTIONS: reveal_overview:t reveal_progress:t
+#+OPTIONS: reveal_rolling_links:nil reveal_slide_number:t
+#+OPTIONS: reveal_width:-1
+#+OPTIONS: org-use-property-inheritance:t
+#+REVEAL_EXTRA_CSS: ./custom.css
+#+REVEAL_EXTRA_JS:
+#+REVEAL_HEAD_PREAMBLE:
+#+REVEAL_HLEVEL: 1
+#+REVEAL_MARGIN: -1
+#+REVEAL_MATHJAX_URL: http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+#+REVEAL_MAX_SCALE: -1
+#+REVEAL_MIN_SCALE: -1
+#+REVEAL_POSTAMBLE:
+#+REVEAL_PREAMBLE:
+#+REVEAL_ROOT: ./reveal.js
+# #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/2.5.0/
+#+REVEAL_SPEED: default
+#+REVEAL_THEME: sky
+#+REVEAL_TITLE_SLIDE_TEMPLATE: <h1 class="title1">%t</h1><p>This is from #+REVEAL_TITLE_SLIDE_TEMPLATE</p>
+#+REVEAL_TRANS: slide

@@ -1,0 +1,17 @@
+* A Quick Org Export to Reveal.js Demo
+
+The contents of the reveal.js directory in this repository were cloned from =git@github.com:hakimel/reveal.js.git= and then built using nodejs. The .git directory was removed so it could be added without sub{module,tree} hackery.
+
+A script has been added to impress.org to set random values for the positions and rotations of the slides. Setting these by hand in the HTML is not so much fun.
+
+* Install
+
+You might want to clone this repository to somewhere under a webserver's docroot.
+
+In emacs, run =M-x package-list-packages= and then install =ox-reveal=
+
+You may have to =M-x load-library RET ox-reveal=
+
+Then open =reveal.org= and =C-c C-e R R= to export to =reveal.html=
+
+Check it out in your browser.
